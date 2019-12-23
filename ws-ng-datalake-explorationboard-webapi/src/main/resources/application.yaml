@@ -1,0 +1,7 @@
+ws:
+  ng:
+    swagger:
+      enable: true
+
+server:
+  port: 8164
