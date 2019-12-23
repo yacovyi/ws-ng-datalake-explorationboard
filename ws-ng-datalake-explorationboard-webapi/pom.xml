@@ -50,6 +50,16 @@
             <artifactId>loginfra</artifactId>
             <version>${infra.version}</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.neo4j.driver</groupId>-->
+<!--            <artifactId>neo4j-java-driver</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>org.neo4j.driver</groupId>
+            <artifactId>neo4j-java-driver-spring-boot-starter</artifactId>
+            <version>4.0.0-rc1</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -61,6 +71,8 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+
     </dependencies>
 
     <build>

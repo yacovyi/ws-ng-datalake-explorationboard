@@ -8,6 +8,7 @@ import org.springframework.context.annotation.FilterType;
 @SpringBootApplication
 @ComponentScan(
         basePackages = {
+                "com.ws.ng.datalake.explorationboard.webapi",
                 "com.ws.ng.loginfra.web"},
         excludeFilters = {
                 @ComponentScan.Filter(type = FilterType.REGEX, pattern = ".*Test.*")}

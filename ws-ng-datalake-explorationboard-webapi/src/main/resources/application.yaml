@@ -5,3 +5,11 @@ ws:
 
 server:
   port: 8164
+
+org:
+  neo4j:
+    driver:
+      uri: bolt://54.165.174.76:33724
+      authentication:
+        username: neo4j
+        password: block-thirteens-attachment

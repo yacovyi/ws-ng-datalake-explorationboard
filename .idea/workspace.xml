@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e657590e-0a14-4e5e-82dc-52fe7832c377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/main/java/com/ws/ng/datalake/explorationboard/webapi/controller/MoviesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/main/java/com/ws/ng/datalake/explorationboard/webapi/WsNgDatalakeExplorationboardWebapiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/main/java/com/ws/ng/datalake/explorationboard/webapi/WsNgDatalakeExplorationboardWebapiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/test/java/com/ws/ng/datalake/explorationboard/webapi/WsNgDatalakeExplorationboardWebapiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ws-ng-datalake-explorationboard-webapi/src/test/java/com/ws/ng/datalake/explorationboard/webapi/WsNgDatalakeExplorationboardWebapiApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WsNgDatalakeExplorationboardWebapiApplicationTests.connectToNeo4j" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-ng-datalake-explorationboard-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.ng.datalake.explorationboard.webapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ws.ng.datalake.explorationboard.webapi" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.ng.datalake.explorationboard.webapi.WsNgDatalakeExplorationboardWebapiApplicationTests" />
+      <option name="METHOD_NAME" value="connectToNeo4j" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WsNgDatalakeExplorationboardWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ws-ng-datalake-explorationboard-webapi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.ng.datalake.explorationboard.webapi.WsNgDatalakeExplorationboardWebapiApplication" />
@@ -66,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WsNgDatalakeExplorationboardWebapiApplicationTests.connectToNeo4j" />
         <item itemvalue="JUnit.WsNgDatalakeExplorationboardWebapiApplicationTests" />
       </list>
     </recent_temporary>
@@ -92,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577109608654</updated>
-      <workItem from="1577109611767" duration="2488000" />
+      <workItem from="1577109611767" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="add loginfra and Dockerfile">
       <created>1577111844851</created>
@@ -101,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577111844851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add spring-boot-starter-web dependency and fix loginfra by  &#10;exclude spring-boot-starter-logging from org.springframework.boot">
+      <created>1577112266007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577112266008</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,57 +144,62 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add loginfra and Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add loginfra and Dockerfile" />
+    <MESSAGE value="add spring-boot-starter-web dependency and fix loginfra by  &#10;exclude spring-boot-starter-logging from org.springframework.boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spring-boot-starter-web dependency and fix loginfra by  &#10;exclude spring-boot-starter-logging from org.springframework.boot" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2205" y="195" key="CommitChangelistDialog2" timestamp="1577111844609">
+    <state x="2205" y="195" key="CommitChangelistDialog2" timestamp="1577112265931">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2205" y="195" key="CommitChangelistDialog2/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577111844609" />
-    <state width="1809" height="326" key="GridCell.Tab.0.bottom" timestamp="1577112105313">
+    <state x="2205" y="195" key="CommitChangelistDialog2/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112265931" />
+    <state width="442" height="466" key="DebuggerActiveHint" timestamp="1577113397540">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.0.bottom/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="442" height="466" key="DebuggerActiveHint/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577113397540" />
+    <state width="1809" height="403" key="GridCell.Tab.0.bottom" timestamp="1577114397929">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1809" height="403" key="GridCell.Tab.0.bottom/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397929" />
     <state width="1809" height="326" key="GridCell.Tab.0.bottom/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.0.center" timestamp="1577112105313">
+    <state width="1809" height="403" key="GridCell.Tab.0.center" timestamp="1577114397929">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.0.center/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="403" key="GridCell.Tab.0.center/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397929" />
     <state width="1809" height="326" key="GridCell.Tab.0.center/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.0.left" timestamp="1577112105313">
+    <state width="1809" height="403" key="GridCell.Tab.0.left" timestamp="1577114397929">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.0.left/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="403" key="GridCell.Tab.0.left/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397929" />
     <state width="1809" height="326" key="GridCell.Tab.0.left/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.0.right" timestamp="1577112105313">
+    <state width="1809" height="403" key="GridCell.Tab.0.right" timestamp="1577114397929">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.0.right/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="403" key="GridCell.Tab.0.right/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397929" />
     <state width="1809" height="326" key="GridCell.Tab.0.right/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.1.bottom" timestamp="1577112105313">
+    <state width="1809" height="326" key="GridCell.Tab.1.bottom" timestamp="1577114397600">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.1.bottom/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="326" key="GridCell.Tab.1.bottom/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397600" />
     <state width="1809" height="326" key="GridCell.Tab.1.bottom/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.1.center" timestamp="1577112105313">
+    <state width="1809" height="326" key="GridCell.Tab.1.center" timestamp="1577114397600">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.1.center/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="326" key="GridCell.Tab.1.center/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397600" />
     <state width="1809" height="326" key="GridCell.Tab.1.center/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.1.left" timestamp="1577112105313">
+    <state width="1809" height="326" key="GridCell.Tab.1.left" timestamp="1577114397600">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.1.left/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="326" key="GridCell.Tab.1.left/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397600" />
     <state width="1809" height="326" key="GridCell.Tab.1.left/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state width="1809" height="326" key="GridCell.Tab.1.right" timestamp="1577112105313">
+    <state width="1809" height="326" key="GridCell.Tab.1.right" timestamp="1577114397600">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1809" height="326" key="GridCell.Tab.1.right/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112105313" />
+    <state width="1809" height="326" key="GridCell.Tab.1.right/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577114397600" />
     <state width="1809" height="326" key="GridCell.Tab.1.right/65.24.1855.1176/1920.0.1920.1200@65.24.1855.1176" timestamp="1577111217198" />
-    <state x="2512" y="335" key="Vcs.Push.Dialog.v2" timestamp="1577111846525">
+    <state x="2512" y="335" key="Vcs.Push.Dialog.v2" timestamp="1577112267012">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2512" y="335" key="Vcs.Push.Dialog.v2/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577111846525" />
+    <state x="2512" y="335" key="Vcs.Push.Dialog.v2/65.24.1855.1176/1920.0.1920.1200@1920.0.1920.1200" timestamp="1577112267012" />
     <state x="548" y="365" key="new project wizard" timestamp="1577110151861">
       <screen x="65" y="24" width="1855" height="1176" />
     </state>
